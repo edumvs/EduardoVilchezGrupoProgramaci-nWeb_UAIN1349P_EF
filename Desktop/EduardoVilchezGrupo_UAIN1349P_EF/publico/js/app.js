@@ -1,0 +1,1 @@
+console.log("Sistema de la Clínica Veterinaria Patitas cargado correctamente.");

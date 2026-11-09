@@ -1,0 +1,17 @@
+/* --- Identidad de Marca: Clínica Veterinaria Patitas --- */
+:root {
+    --color-principal: #2b6cb0;   /* Azul corporativo */
+    --color-secundario: #319795; /* Verde/Calipso veterinario */
+    --color-acento: #ed8936;     /* Naranja amigable para detalles */
+    --color-fondo: #f4f6f9;      /* Fondo limpio */
+    --color-texto: #2d3748;      /* Texto oscuro legible */
+}
+
+/* Aplicando colores de marca base */
+body {
+    color: var(--color-texto);
+}
+
+h1, h2 {
+    color: var(--color-principal);
+}

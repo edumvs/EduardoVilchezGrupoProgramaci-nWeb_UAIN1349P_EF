@@ -1,0 +1,103 @@
+/* --- Estilos Generales de la Veterinaria --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* --- Contenedor Principal / Tarjetas --- */
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+/* --- Estilo para el Formulario de Citas --- */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-weight: 600;
+    font-size: 14px;
+    color: #4a5568;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+input:focus, select:focus {
+    border-color: #3182ce;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.15);
+}
+
+/* --- Casilla de Términos y Condiciones --- */
+div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+}
+
+/* --- Botón de Enviar --- */
+button[type="submit"] {
+    background-color: #2b6cb0;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c5282;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* --- Enlaces de Navegación --- */
+a {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 5px 0;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
