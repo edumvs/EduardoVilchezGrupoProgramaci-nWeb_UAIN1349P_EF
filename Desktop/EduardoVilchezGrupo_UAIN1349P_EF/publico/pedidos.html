@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Citas - Veterinaria</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <h1>🐾 Formulario de Citas</h1>
+        <nav>
+            <a href="index.html">Inicio</a> | 
+            <a href="pedidos.html">Reservar Cita</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Agenda el turno de tu mascota</h2>
+        <form action="/citas" method="POST">
+            <label>Nombre del Dueño:</label><br>
+            <input type="text" name="dueño" required><br><br>
+
+            <label>Celular:</label><br>
+            <input type="text" name="celular" required><br><br>
+
+            <label>Nombre de la Mascota:</label><br>
+            <input type="text" name="mascota" required><br><br>
+
+            <label>Servicio:</label><br>
+            <select name="servicio">
+                <option value="Consulta General">Consulta General</option>
+                <option value="Vacunacion">Vacunación</option>
+                <option value="Baño y Peluqueria">Baño y Peluquería</option>
+            </select><br><br>
+
+            <label>Fecha de la Cita:</label><br>
+            <input type="date" name="fecha" required><br><br>
+
+            <input type="checkbox" name="consentimiento" required> Acepto los términos y condiciones<br><br>
+
+            <button type="submit">Enviar Reserva</button>
+        </form>
+    </main>
+</body>
+</html>

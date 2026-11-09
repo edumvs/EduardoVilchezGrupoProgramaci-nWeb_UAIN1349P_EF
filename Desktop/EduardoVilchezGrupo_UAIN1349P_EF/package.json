@@ -1,0 +1,13 @@
+{
+  "name": "eduardovilchezgrupo_uain1349p_ef",
+  "version": "1.0.0",
+  "description": "",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "node servidor.js",
+    "dev": "nodemon servidor.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "dueño": "Eduardo Vilchez",
+    "celular": "993017076",
+    "mascota": "Mika",
+    "servicio": "Consulta General",
+    "fecha": "2026-11-15",
+    "consentimiento": true,
+    "recibido": "2026-11-09T07:07:10.251Z"
+  },
+  {
+    "dueño": "Ale",
+    "celular": "999222111",
+    "mascota": "Nala",
+    "servicio": "Vacunacion",
+    "fecha": "2026-11-16",
+    "consentimiento": true,
+    "recibido": "2026-11-09T08:02:25.698Z"
+  }
+]
