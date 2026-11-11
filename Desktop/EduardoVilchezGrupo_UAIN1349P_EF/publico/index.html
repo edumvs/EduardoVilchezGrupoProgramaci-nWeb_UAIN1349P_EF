@@ -3,22 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clínica Veterinaria Patitas Felices</title>
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="stylesheet" href="css/marca.css">
+    <title>Veterinaria DOGTORAS - Inicio</title>
+    <link rel="stylesheet" href="./css/marca.css">
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <header>
-        <h1>🐾 Clínica Veterinaria Patitas Felices</h1>
-        <nav>
-            <a href="index.html">Inicio</a> | 
-            <a href="pedidos.html">Reservar Cita</a>
-        </nav>
+    <header class="header-principal">
+        <!-- Logo de la veterinaria -->
+        <img src="./img/logo.png" alt="Logo Veterinaria DOGTORAS" class="logo-img" width="100">
+        <h1>Clínica Veterinaria DOGTORAS</h1>
+        <p>Atención amigable y profesional para tus mascotas</p>
     </header>
+
     <main>
-        <h2>Cuidamos a tu engreído con el mayor cariño</h2>
-        <p>Bienvenido al sistema oficial de reservas de nuestra veterinaria. Agenda una cita de manera rápida y segura.</p>
-        <p><a href="pedidos.html" class="btn">Ir al Formulario de Citas</a></p>
+        <!-- Imagen de Banner principal -->
+        <section class="banner-seccion">
+            <img src="./img/banner.jpg" alt="Veterinaria DOGTORAS Banner" class="img-banner">
+        </section>
+
+        <section class="servicios-contenedor">
+            <h2>Nuestros Servicios y Tarifas</h2>
+            <ul class="lista-servicios">
+                <li><strong>Consulta General:</strong> S/. 50.00</li>
+                <li><strong>Vacunación:</strong> S/. 70.00</li>
+                <li><strong>Baño y Peluquería:</strong> S/. 60.00</li>
+            </ul>
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="pedidos.html" class="btn-reservar">Reservar una Cita</a>
+            </div>
+        </section>
     </main>
+
+    <script src="./js/app.js"></script>
 </body>
 </html>

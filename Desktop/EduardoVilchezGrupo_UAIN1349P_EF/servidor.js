@@ -80,6 +80,7 @@ const servidor = http.createServer(async (req, res) => {
       mascota: escapar(datos.get('mascota') || ''),
       servicio: escapar(datos.get('servicio') || ''),
       fecha: escapar(datos.get('fecha') || ''),
+      hora: escapar(datos.get('hora') || ''),
       consentimiento: datos.get('consentimiento') === 'on',
       recibido: new Date().toISOString(),
     };
