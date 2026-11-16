@@ -1,1 +1,1 @@
-console.log("Sistema de la Clínica Veterinaria Patitas cargado correctamente.");
+console.log("Sistema de la Veterinaria DOGTORAS cargado correctamente.");

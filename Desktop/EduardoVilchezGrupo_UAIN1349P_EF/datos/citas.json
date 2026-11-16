@@ -1,29 +1,12 @@
 [
   {
-    "dueño": "Eduardo Vilchez",
+    "dueño": "Eduardo",
     "celular": "993017076",
     "mascota": "Mika",
     "servicio": "Consulta General",
-    "fecha": "2026-11-15",
+    "fecha": "2026-11-19",
+    "hora": "11:11",
     "consentimiento": true,
-    "recibido": "2026-11-09T07:07:10.251Z"
-  },
-  {
-    "dueño": "Ale",
-    "celular": "999222111",
-    "mascota": "Nala",
-    "servicio": "Vacunacion",
-    "fecha": "2026-11-16",
-    "consentimiento": true,
-    "recibido": "2026-11-09T08:02:25.698Z"
-  },
-  {
-    "dueño": "Giuliana",
-    "celular": "92124567",
-    "mascota": "Misha",
-    "servicio": "Baño y Peluqueria",
-    "fecha": "2026-11-17",
-    "consentimiento": true,
-    "recibido": "2026-11-09T08:46:52.724Z"
+    "recibido": "2026-11-11T15:25:17.745Z"
   }
 ]
